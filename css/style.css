@@ -1,0 +1,68 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #252525;
+  color: #FFF;
+}
+
+.primary-bg-color {
+  background-color: #252525;
+}
+
+.secondary-bg-color {
+  background-color: #C09578;
+}
+
+.light-bg-color {
+  background-color: #FCF5EB
+}
+
+.dark-bg-color {
+  background-color: #101010;
+}
+
+.primary-color {
+  color: #C09578;
+}
+
+.secondary-color {
+  color: #626262;
+}
+
+.light-color {
+  color: #FCF5EB
+}
+
+/* navbar */
+#navbar .navbar-nav li {
+  margin-left: 1em;
+}
+
+#navbar a {
+  color: #FFF;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+}
+
+@media(min-width: 768px) {
+  .navbar-brand {
+    text-align: left;
+  }
+}
+
+#navbar-items {
+  justify-content: space-between;
+}
+
+@media(min-width: 768px) {
+  #navbar-items {
+    display: flex;
+    min-width: 80%;
+  }
+}
